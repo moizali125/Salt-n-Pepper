@@ -1,0 +1,1144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@font-face {
+  font-family: apercu;
+  src: url(./../Apercu\ Regular.ttf);
+}
+@font-face {
+  font-family: Futurak;
+  src: url(./../futurak.ttf);
+}
+
+#sec-7 {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.08);
+  width: fit-content;
+  height: fit-content;
+}
+.foot-bg-logo {
+  position: absolute;
+  left: 3%;
+  top: 16%;
+  width: fit-content;
+  height: fit-content;
+}
+.footer-elements {
+  width: 100%;
+  height: fit-content;
+  margin-top: 4%;
+  padding-top: 4%;
+  padding-left: 10%;
+  padding-right: 11%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.foot-sections {
+  display: flex;
+  width: 80%;
+  gap: 5px;
+  padding-bottom: 2%;
+}
+.foot-sec1 {
+  width: 60%;
+  padding: 1%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.foot-sec1 > .foot-snp-logo {
+  width: fit-content;
+  height: fit-content;
+  margin-top: 3%;
+}
+
+.foot-snp-logo > a {
+  width: fit-content;
+  height: fit-content;
+}
+
+.foot-snp-logo > a > img {
+  position: absolute;
+  bottom: 42px;
+  left: 30px;
+}
+.foot-sec1 > p {
+  font-family: apercu, "Times New Roman", Times, serif, sans-serif;
+  line-height: 23px;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.foot-sec1-anchors {
+  display: flex;
+  gap: 20px;
+}
+
+.foot-sec1-anchors > a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.1rem;
+  font-weight: 300;
+  font-family: apercu, "Times New Roman", Times, serif, sans-serif;
+}
+.foot-sec2 {
+  padding: 1%;
+  width: 20%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.foot-sec2 > h4 {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.foot-sec2 > a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+  margin-bottom: 3%;
+}
+.foot-sec3 {
+  padding: 1%;
+  width: 35%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.foot-sec3 > h4 {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.foot-sec3 > a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+}
+
+.foot-sec3 > p {
+  font-size: 1rem;
+}
+.foot-sec4 {
+  padding: 1%;
+  width: 20%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.foot-sec4 > h4 {
+  color: white;
+  font-size: 1.2rem;
+}
+.foot-sec4 > .social-anchors {
+  width: 100%;
+  color: white;
+  display: flex;
+  gap: 10px;
+  height: fit-content;
+  padding: 1%;
+}
+.foot-sec4 > .social-anchors > a {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  width: 40px;
+  height: 40px;
+  font-size: 1.3rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foot-sec4 > a {
+  margin-top: 2%;
+}
+.foot-end {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+  padding: 1%;
+}
+
+.foot-end-head {
+  width: 68%;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: apercu;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@font-face {
+  font-family: apercu;
+  src: url(./../Apercu\ Regular.ttf);
+}
+
+@font-face {
+  font-family: Futurak;
+  src: url(./../futurak.ttf);
+}
+
+.anim-images {
+  height: 81vh;
+  width: 100%;
+}
+.anim-images > .anim-img-1 {
+  width: 100%;
+}
+
+.anim-img-1 > a {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.anim-img-1 > a > img {
+  width: 100%;
+  height: 100%;
+}
+.after-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+  margin-top: 0%;
+}
+
+.after-content-head-others {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+  margin-top: 2%;
+}
+.back {
+  font-family: "futurak";
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 53px;
+  line-height: 62px;
+  color: #ffffff;
+}
+.after-content > p {
+  font-family: apercu, sans-serif, "Times New Roman", Times, serif;
+}
+.sec-2-img-sec-nav {
+  width: 70%;
+  padding: 1%;
+  margin-top: 1%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.sec2-img-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: fit-content;
+}
+.sec2-img-divs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  width: fit-content;
+  padding: 0px 16px;
+}
+
+.sec2-img-divs > .sec2-img-anchors {
+  background-color: white;
+}
+
+.sec2-img-button {
+  border: 1px solid white;
+  border-radius: 28px;
+  margin-top: 10%;
+  padding: 2%;
+  width: 500px;
+  height: 6vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  width: 174px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 40px;
+  color: #ffffff;
+  margin: auto;
+  margin-top: 24px;
+}
+.sec2-img-button > a {
+  text-decoration: none;
+  color: #fff;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@font-face {
+  font-family: apercu;
+  src: url(./../Apercu\ Regular.ttf);
+}
+
+@font-face {
+  font-family: Futurak;
+  src: url(./../futurak.ttf);
+}
+
+#section-3 {
+  background-color: rgba(255, 255, 255, 0.05);
+  height: fit-content;
+  margin-top: 2%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+}
+
+#section-3 > .sec3-bg-logo {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  z-index: -1;
+}
+.section3-elements {
+  width: 100%;
+  height: fit-content;
+  padding: 2%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sec-3-main-head {
+  padding: 0.2%;
+  width: 100%;
+  text-align: center;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.sec-3-main-head > h2 {
+  color: white;
+  font-size: 3.2rem;
+  font-weight: 300;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.sec-3-main-head > p {
+  color: white;
+  font-family: apercu, "Times New Roman", Times, serif;
+}
+
+.isl-frans-br {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  padding: 1%;
+  margin-top: 1%;
+}
+.isl-br-head-content {
+  width: 30%;
+  padding: 1%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+}
+
+.isl-br-head-content > h4 {
+  color: #ed1c24;
+  letter-spacing: 3px;
+  font-size: 1rem;
+  font-family: apercu, "Times New Roman", Times, serif, sans-serif;
+  font-weight: 50;
+}
+
+.isl-br-head-content > h6 {
+  color: white;
+  margin-top: 2%;
+  font-size: 2rem;
+  font-family: apercu, sans-serif, "Times New Roman", Times, serif;
+  font-weight: 100;
+  margin-bottom: 4%;
+}
+
+.isl-br-head-content > h6 > span {
+  font-family: Futurak, sans-serif, "Times New Roman", Times, serif;
+  font-weight: 200;
+}
+
+.isl-br-head-content > .para {
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: apercu, "Times New Roman", Times, serif, sans-serif;
+  font-size: 1rem;
+}
+.isl-br-head-content > .para > i {
+  margin-left: 2px;
+  margin-right: 2px;
+  font-size: 1.2rem;
+}
+.get-direction-button {
+  width: 100%;
+  height: fit-content;
+  margin-top: 3%;
+  margin-left: -1%;
+}
+.gd-all-button {
+  width: 174px;
+  padding: 3%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: baseline;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", apercu, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  font-family: "Poppins";
+}
+.gd-all-button:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.gd-all-button:hover {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.gd-all-button > span {
+  background-color: white;
+  margin-left: 5px;
+  color: #ed1c24;
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.franchise-box-image {
+  margin-left: 8%;
+  margin-top: 1%;
+  padding: 0.5%;
+  background-color: #0d0d0d;
+  height: 280px;
+}
+.arrow-one {
+  padding: 8px 8px 6px;
+}
+
+.arrow-one {
+  background-color: #fff;
+  color: red;
+  width: 27px;
+  height: 27px;
+  padding: 5px 8px;
+  border-radius: 30px;
+  margin-left: 10px;
+}
+.fsl-br-div {
+  width: 100%;
+  height: fit-content;
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+}
+
+.fsl-br-head-content {
+  width: 30%;
+  padding: 1%;
+  margin-left: 2%;
+  display: flex;
+  flex-direction: column;
+}
+.fsl-br-head-content > h4 {
+  color: #ed1c24;
+  letter-spacing: 5px;
+  font-size: 1rem;
+  font-family: apercu, "Times New Roman", Times, serif, sans-serif;
+  font-weight: 50;
+}
+
+.fsl-br-head-content > h6 {
+  color: white;
+  margin-top: 2%;
+  font-size: 2rem;
+  font-family: apercu, sans-serif, "Times New Roman", Times, serif;
+  font-weight: 100;
+  margin-bottom: 4%;
+}
+
+.fsl-br-head-content > h6 > span {
+  font-family: Futurak, sans-serif, "Times New Roman", Times, serif;
+  font-weight: 200;
+}
+
+.fsl-br-head-content > .para {
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: apercu, "Times New Roman", Times, serif, sans-serif;
+  font-size: 1rem;
+}
+
+.fsl-br-head-content > .para > i {
+  margin-left: 2px;
+  margin-right: 2px;
+  font-size: 1.2rem;
+}
+
+.bhw-br-div {
+  width: 100%;
+  height: fit-content;
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+}
+.bhw-br-head-content {
+  width: 35%;
+  padding: 1%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  height: 360px;
+}
+
+.bhw-br-head-content > h4 {
+  color: #ed1c24;
+  letter-spacing: 5px;
+  font-size: 1rem;
+  font-family: apercu, "Times New Roman", Times, serif, sans-serif;
+  font-weight: 50;
+}
+
+.bhw-br-head-content > h6 {
+  color: white;
+  margin-top: 2%;
+  font-size: 2rem;
+  font-family: apercu, sans-serif, "Times New Roman", Times, serif;
+  font-weight: 100;
+  margin-bottom: 4%;
+}
+
+.bhw-br-head-content > h6 > span {
+  font-family: Futurak, sans-serif, "Times New Roman", Times, serif;
+  font-weight: 200;
+}
+
+.bhw-br-head-content > .para {
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: apercu, "Times New Roman", Times, serif, sans-serif;
+  font-size: 1rem;
+}
+
+.bhw-br-head-content > .para > i {
+  margin-left: 2px;
+  margin-right: 2px;
+  font-size: 1.2rem;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@font-face {
+  font-family: apercu;
+  src: url(./../Apercu\ Regular.ttf);
+}
+
+@font-face {
+  font-family: Futurak;
+  src: url(./../futurak.ttf);
+}
+#sec-4 {
+  background-color: #0000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 1%;
+  width: 100%;
+  height: fit-content;
+}
+
+.sec-4-bg-logo {
+  background-image: url("./images/5c3e9532-2fd4-4458-9d20-fa3b8b7f0c28.webp");
+  width: 26%;
+  height: 25%;
+  background-size: cover;
+  position: absolute;
+  left: 2%;
+  z-index: -1;
+  top: 3%;
+}
+.sec4-elements {
+  width: 100%;
+  height: fit-content;
+  margin: -3%;
+  padding: 2%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sec4-main-head {
+  padding: 0.2%;
+  width: 100%;
+  text-align: center;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.sec4-main-head > h3 {
+  color: white;
+  font-size: 3.2rem;
+  font-weight: 300;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.sec-4-fran-img-div {
+  margin-top: 1%;
+  padding: 1%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.sec-4-fran-img-div > .sec-4-images {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  color: #fff;
+}
+
+.sec-4-images > .sec-4-img-headers {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  gap: 7px;
+  font-family: apercu, "Times New Roman", Times, serif, sans-serif;
+}
+
+.sec-4-img-headers > h4 {
+  color: #ed1c24;
+  font-weight: 100;
+  font-family: apercu, "Times New Roman", Times, serif, sans-serif;
+  letter-spacing: 5px;
+  font-size: 0.9rem;
+}
+.sec-4-img-headers > h3 {
+  color: #fff;
+  font-family: apercu, "Times New Roman", Times, serif, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.sec-4-img-headers > h3 > .sec4-snp-head {
+  font-family: Futurak, sans-serif, "Times New Roman", Times, serif;
+}
+.sec-4-img-headers > p {
+  color: #ffffffb3;
+  text-align: center;
+}
+.position-seq {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@font-face {
+  font-family: apercu;
+  src: url(./../Apercu\ Regular.ttf);
+}
+
+@font-face {
+  font-family: Futurak;
+  src: url(./../futurak.ttf);
+}
+#sec-5 {
+  background-color: rgba(255, 255, 255, 0.05);
+  height: fit-content;
+  margin-top: 2%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+.sec-5-elements {
+  width: 100%;
+  height: 100%;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.sec-5-head-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec-5-head-content > h3 {
+  font-family: "Times New Roman", Times, serif, sans-serif;
+  font-size: 3.2rem;
+  font-weight: 400;
+  color: white;
+}
+.village-fran-div {
+  width: 100%;
+  margin-top: 1%;
+  padding: 1%;
+  display: flex;
+}
+.image-div {
+  width: fit-content;
+  height: fit-content;
+}
+
+.village-fran-head-div {
+  width: 100%;
+  margin-left: 1%;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 7px;
+}
+
+.village-fran-head-div > h4 {
+  color: #ed1c24;
+  font-weight: 100;
+  font-family: apercu, "Times New Roman", Times, serif, sans-serif;
+  letter-spacing: 7px;
+  font-size: 1.2rem;
+}
+
+.village-fran-head-div > h3 {
+  font-size: 2.6rem;
+  font-family: Futurak, "Times New Roman", Times, serif, sans-serif;
+  font-weight: 100;
+}
+
+.village-fran-head-div > h3 > span {
+  font-family: apercu, "Times New Roman", Times, serif, sans-serif;
+}
+
+.village-fran-head-div > p {
+  color: #ffffffb3;
+  font-size: 1rem;
+}
+
+.sec5-gd-button {
+  margin-top: 10%;
+  padding: 2%;
+}
+
+.sec5-gd-button > .sec5-button-anchor {
+  text-decoration: none;
+  color: #fff;
+  padding: 2.5%;
+  width: 174px;
+  border: 1px solid #28a745;
+  background-color: #28a745;
+  border-radius: 25px;
+  font-family: apercu, "Times New Roman", Times, serif, sans-serif;
+  font-weight: 400;
+  height: 50px;
+}
+
+.sec5-button-anchor > span {
+  background-color: #fff;
+  color: #28a745;
+  margin: 1%;
+  padding: 6px;
+  border-radius: 50%;
+}
+
+.sec5-button-anchor:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.sec5-button-anchor:hover {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@font-face {
+  font-family: apercu;
+  src: url(./../Apercu\ Regular.ttf);
+}
+
+@font-face {
+  font-family: Futurak;
+  src: url(./../futurak.ttf);
+}
+
+#sec-6 {
+  background-color: #000;
+  color: white;
+  padding: 2%;
+  width: 100%;
+  height: fit-content;
+}
+
+.sec-6-elements {
+  width: 100%;
+  height: fit-content;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+}
+.sec-6-head-content {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-6-head-content > h3 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  font-family: "Times New Roman", Times, serif, sans-serif;
+}
+
+.sec-6-head-content > h3 > span {
+  font-size: 2rem;
+}
+.new-fran-det-div {
+  width: 100%;
+  padding: 1%;
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.fran-location-card-box {
+  background-color: #ffff;
+  color: #000;
+  padding: 2%;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  border-radius: 5px;
+}
+.fran-location-card-box > h6 {
+  color: #ed1c24;
+  font-family: apercu, "Times New Roman", Times, serif, sans-serif;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.fran-location-card-box > h3 {
+  font-size: 1.5rem;
+  font-weight: 100;
+  word-spacing: 4px;
+  font-family: apercu, "Times New Roman", Times, serif, sans-serif;
+}
+
+.fran-location-card-box > h3 > span {
+  font-size: 1.9rem;
+  font-weight: 900;
+  margin: 6px;
+}
+
+.fran-location-card-box > p {
+  font-size: 1.4rem;
+  font-family: apercu, "Times New Roman", Times, serif, sans-serif;
+  font-weight: 300;
+}
+
+.social-feed-image-wrapper {
+  width: 100%;
+  height: fit-content;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-feed-image-wrapper > .social-feed-head-content {
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  color: #fff;
+  font-size: 2em;
+  font-family: "Times New Roman", Times, serif, sans-serif, Arial, Helvetica,
+    sans-serif;
+}
+.social-feed-image-wrapper > .img-wrapper-div {
+  width: 100%;
+  height: fit-content;
+  margin-top: 1%;
+  display: flex;
+  gap: 18px;
+}
+
+.img-wrapper-div > a {
+  width: fit-content;
+  height: fit-content;
+}
+
+.img-wrapper-div > a > img {
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: black;
+}
+
+@font-face {
+  font-family: apercu;
+  src: url(./../Apercu\ Regular.ttf);
+}
+.nav-bar {
+  width: 100%;
+  height: 13vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  padding-right: 0%;
+}
+.nav-bar > .nav-elements {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1px;
+  justify-content: center;
+}
+.nav-icon {
+  width: fit-content;
+  height: 90%;
+  margin-left: 3%;
+}
+
+.nav-icon > a {
+  text-decoration: none;
+  width: fit-content;
+  height: fit-content;
+}
+
+.nav-logo-img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-class-anchors {
+  margin-left: 15%;
+  list-style: none;
+  color: #fff;
+  width: fit-content;
+  height: 90%;
+  gap: 38px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1%;
+}
+
+.nav-class-anchors > li > a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  font-family: apercu, sans-serif, "Times New Roman", Times, serif;
+  font-weight: 100;
+}
+
+.nav-class-anchors > a:hover {
+  text-decoration: underline;
+  text-decoration-color: #fff;
+}
+.nav-aside-rounds {
+  border: 1px solid white;
+  border-radius: 30px;
+  width: fit-content;
+  padding: 1.2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1%;
+}
+
+.nav-aside-rounds > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-family: apercu, sans-serif, "Times New Roman", Times, serif;
+  font-weight: 100;
+}
+.nav-aside-rounds-2 {
+  background-color: #ed1c24;
+  border-radius: 35px;
+  width: fit-content;
+  padding: 1.2%;
+  margin-left: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+}
+
+.nav-aside-rounds-2 > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-family: apercu, sans-serif, "Times New Roman", Times, serif;
+  font-weight: 100;
+}
+
+.nav-aside-rounds-2 > a > #arrow-icon {
+  background-color: #fff;
+  color: red;
+  font-size: 20px;
+  width: 1.3vw;
+  border-radius: 50%;
+}
+
+.nav-borders:hover {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.3);
+}
+
+.nav-borders:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.welcome {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal !important;
+  font-family: "Apercu";
+  font-style: normal;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+.logo-text-hold {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "futurak";
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 52px;
+  line-height: 62px;
+  color: #ffffff;
+}
+small {
+  font-family: "apercu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.48em;
+  text-transform: uppercase;
+  color: #ed1c24;
+  margin-bottom: 8px;
+  display: block;
+  margin-left: 4px;
+}
+.logo-text-hold-second {
+  font-family: "futurak";
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 44px;
+  line-height: 29px;
+  text-align: center;
+  color: #ffffff;
+}
+h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+span.logo-text-hold {
+  font-family: "futurak";
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 60px;
+  line-height: 62px;
+  color: #ffffff;
+}
+h2 {
+  margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 8px;
+  font-family: "butler";
+  font-style: normal;
+  font-size: 38px;
+  line-height: 56px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+.snp-right-side-second {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: apercu;
+  line-height: 24px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: absolute;
+  right: 0px;
+  bottom: 650px;
+}
